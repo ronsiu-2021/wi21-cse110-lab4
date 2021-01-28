@@ -1,10 +1,13 @@
 1. What will happen at line 11 and why?
+    
     Line 11 will output the value stored in `i`. `i` is a var variable. It controls the number of times of the loop being run. var i was declared at line 5, and it is accessible outside of the loop at line 11 because var varialbes have no block scope.   
 
 2. What will happen at line 12 and why?
+    
     Line 12 will output the value stored in discountedPrice. The variable discountedPrice is var variable, and it was declared at line 6 inside the for loop. The var variable can be accessible outside the scope and allow redeclarations. So, the var discountedPrice is accessible at line 12.
 
 3. What will happen at line 13 and why?
+   
    Line 13 will output the value stored in finalPrice. finalPrice is a var variable, which is declared at line 3 with value 0. Since var variable can be accessible outside the scope and assignment always works at the place where it appears, the value of finalPrice is updated at line 7. Then, finalPrice is still accessible line 13 and output its value.
 
 4. What will the function return if we call discountPrices([100, 200, 300], .5) ? Give a brief explanation.
@@ -76,6 +79,7 @@
     `student.courseLoad[0]`
 
 14. Arithmetic
+    
     A. '3' + 2
 
     `32`, string conversion on 2, then it will concatenate to 3 to become 32 as string.
