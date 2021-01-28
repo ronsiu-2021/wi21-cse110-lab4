@@ -10,6 +10,7 @@
 
 
 * What was the bug?
+
     There is a type conversion bug appearing when getting the input value. The variables num1 and num2 are treating the input values as string. When the program passes these values into `calculateSum()`, the function will perform string concatenation and store it as result for return. 
 
 * How would you fix it? Include a screenshot of your fix.
@@ -32,6 +33,7 @@
 ## part 2
 
 Once it finishes downloading, answer the following questions:
+
   1. What is the name of the new json file?
 
     `citylots`
