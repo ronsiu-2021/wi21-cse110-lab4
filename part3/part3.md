@@ -1,11 +1,12 @@
 ## part 1
 
 #### Triggered breakpoint
-![Image of Triggered breakpoint]()
+![Image of Triggered breakpoint](https://github.com/ronsiu-712/wi21-cse110-lab4/blob/main/part3/part3_breakpoint.jpg)
 
 
 #### Add watch expressions
-![Image of watch expressions]()
+![Image of watch expressions](https://github.com/ronsiu-712/wi21-cse110-lab4/blob/main/part3/part3_watchList.jpg)
+![Image of Step In](https://github.com/ronsiu-712/wi21-cse110-lab4/blob/main/part3/part3_step.jpg)
 
 
 * What was the bug?
@@ -20,7 +21,7 @@
     ```
     Multiplying 1 can ensure the input value will be treated as number.
 
-![Image of Fixed]()
+![Image of Fixed](https://github.com/ronsiu-712/wi21-cse110-lab4/blob/main/part3/part3_fix.jpg)
 
 
 
