@@ -1,6 +1,6 @@
 1. What will happen at line 11 and why?
     
-    Line 11 will output the value stored in `i`. `i` is a var variable. It controls the number of times of the loop being run. var i was declared at line 5, and it is accessible outside of the loop at line 11 because var varialbes have no block scope.   
+    Line 11 will output the value stored in `i`. `i` is a var variable. It controls the number of times of the loop being run. var i was declared at line 5, and it is still accessible outside of the loop at line 11 because var variables have no block scope.   
 
 2. What will happen at line 12 and why?
     
@@ -25,12 +25,12 @@
 
 5. What will happen at line 11 and why?
 
-    On line 11, there is an Reference error because i is not defined. The variable i is a let variable and declared at line 5. Since let variable is a block-local variable and let i is declared at the same line with the for loop, which will be considered inside the for loop, variable i  is not accessible from line 11.
+    On line 11, there is an Reference error because i is not defined. The variable i is a let variable and declared at line 5. Since let variable is a block-local variable and let i is declared at the same line with the for loop, which will be considered inside the for loop. Its scope is inside the loop. variable i  is not accessible from line 11.
 
 
 6. What will happen at line 12 and why?
 
-     On line 12, there is an Reference error because discountedPrice is not defined. The variable discountedPrice is a let variable and declared at line 6. Since let variable is a block-local variable and let discountedPrice is declared inside the for loop, the variable discountedPrice is not accessible from line 12.
+     On line 12, there is an Reference error because discountedPrice is not defined. The variable discountedPrice is a let variable and declared at line 6, which is inside the for loop, and its scope is inside the for loop. Since let variable is a block-local variable and let discountedPrice is declared inside the for loop, the variable discountedPrice is not accessible from line 12.
 
 7. What will happen at line 13 and why?
 
